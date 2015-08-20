@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <!-- (1) Optimize for mobile versions: http://goo.gl/EOpFl -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- (1) force latest IE rendering engine: bit.ly/1c8EiC9 -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <title>Docker and the Future of Software</title>
+  <meta name="description" content="Developer and Musician blogging about VR, Webdev, Machine Learning, and Startups
+" />
+
+  <meta name="HandheldFriendly" content="True" />
+  <meta name="MobileOptimized" content="320" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+  <link rel="canonical" href="http://www.ryansworks.com/docker-and-the-future-of-software/">
+
+  <link rel="shortcut icon" href="/assets/images/favicon.ico">
+<!--  <link rel="stylesheet" href=""> -->
+  <link rel="stylesheet" href="http://brick.a.ssl.fastly.net/Linux+Libertine:400,400i,700,700i/Open+Sans:400,400i,700,700i">
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" type="text/css" media="screen" href="/css/main.css" />
+  <link rel="stylesheet" type="text/css" media="print" href="/css/print.css" />
+</head>
+
+  <body itemscope itemtype="http://schema.org/Article">
+    <!-- header start -->
+
+<a href="http://www.ryansworks.com" class="logo-readium"><span class="logo" style="background-image: url(/assets/images/logo.png)"></span></a>
+
+<!-- header end -->
+
+    <main class="content" role="main">
+      <article class="post">
+        
+        <div class="noarticleimage">
+          <div class="post-meta">
+            <h1 class="post-title">Docker and the Future of Software</h1>
+            <div class="cf post-meta-text">
+              <div class="author-image" style="background-image: url(/assets/images/ryan_mcdermott.jpg)">Blog Logo</div>
+              <h4 class="author-name" itemprop="author" itemscope itemtype="http://schema.org/Person">Ryan McDermott</h4>
+              on
+              <time datetime="2014-08-12T00:00:00+00:00">12 Aug 2014</time>
+              <!-- , tagged on <span class="post-tag-">, <a href="/tag/"></a></span> -->
+            </div>
+          </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        
+        <section class="post-content">
+          <div class="post-reading">
+            <span class="post-reading-time"></span> read
+          </div>
+          <a name="topofpage"></a>
+          <p>Recently I started taking a look at <a href="https://www.docker.com/">Docker</a> which aims to be the future of shipping software. I was skeptical at first but after watching several videos (<a href="https://www.youtube.com/watch?v=Q5POuMHxW-0">1</a>, <a href="https://www.youtube.com/watch?v=pts6F00GFuU">2</a>) I was blown away by the possibilities and what this means for the future of software. The power of Docker is the ultimate abstraction from the underlying operating system.</p>
+
+<p>We have been stuck in a model of tying all of our software dependencies and our applications themselves to the very same file system and package directories that our operating systems use. Keeping track of our development and production box&#8217;s installations of our app&#8217;s dependencies is not the kind of productive work we should be doing as developers. We should be focusing on our applications!</p>
+
+<p>Realizing this observation about Docker struck me. I think we will look at the world before Docker much in the way we look at the world of literature before the printing press &#8212; everything was done by hand with far too much energy and subjected our work to a great deal of human error.</p>
+
+<p>The other metaphor that strikes me is the one proclaimed by the Docker community, and is at the very core of its philosophy &#8212; that is <em>containerization</em>. With Docker, we realize that what we should be doing is specifying our app&#8217;s entire software ecosystem as a container, and not as a series of installations we need to do directly on the server that will be running our code. We should feel confident knowing that our local development boxes and every single on of our production boxes as well are using an identical setup, just as a civil engineer feels confident that her CAD mockups and physical simulation software maps exactly to the real world or a ship captain knows that the company&#8217;s goods will be handled identically on every ship and every port.</p>
+
+<p>As the world&#8217;s computing needs grow, especially with the coming of IoT and the incredible volume of data that will arise from all of our sensors, we need scalable ways of keeping our software dependencies and applications in controlled and contained states. Docker is the best solution I see.</p>
+
+<h3>My practical Docker example:</h3>
+
+<p>I was working on a quick side project and took the chance to create a Dockerfile for a Python 3 Flask App that uses uWSGI and Nginx. <a href="https://github.com/ryanmcdermott/docker-flask">Check it out on my GitHub project</a></p>
+
+        </section>
+        <footer class="post-footer">
+          <section class="share">
+            
+              
+                <a class="icon-twitter" href="http://twitter.com/share?text=Docker+and+the+Future+of+Software&amp;url=http://www.ryansworks.com/docker-and-the-future-of-software"
+                  onclick="window.open(this.href, 'twitter-share', 'width=550,height=255');return false;">
+                <i class="fa fa-twitter"></i><span class="hidden">twitter</span>
+                </a>
+              
+            
+              
+            
+          </section>
+        </footer>
+        <div class="bottom-teaser cf">
+          <div class="isLeft">
+            <h5 class="index-headline featured"><span>Written by</span></h5>
+            <section class="author">
+              <div class="author-image" style="background-image: url(/assets/images/ryan_mcdermott.jpg)">Blog Logo</div>
+              <h4>Ryan McDermott</h4>
+              <p class="bio"></p>
+              <hr>
+              <p class="published">Published <time datetime="2014-08-12 00:00">12 Aug 2014</time></p>
+            </section>
+          </div>
+          
+          <div class="isRight">
+            <h5 class="index-headline featured"><span>Supported by</span></h5>
+            <footer class="site-footer">
+              <section class="poweredby">Proudly published with <a href="http://jekyllrb.com"> Jekyll</a></section>
+              <a class="subscribe" href="/feed.xml"> <span class="tooltip"> <i class="fa fa-rss"></i> You should subscribe to my feed.</span></a>
+              <div class="inner">
+                <section class="copyright">All content copyright <a href="/">Ryan McDermott</a> &copy; 2015<br>All rights reserved.</section>
+              </div>
+            </footer>
+          </div>
+        </div>
+      </article>
+    </main>
+    <div class="bottom-closer">
+      <div class="background-closer-image"  style="background-image: url(/assets/images/atx_sky.jpg)">
+        Image
+      </div>
+      <div class="inner">
+        <h1 class="blog-title">Ryansworks</h1>
+        <h2 class="blog-description">Developer and Musician blogging about VR, Webdev, Machine Learning, and Startups
+</h2>
+        <a href="/" class="btn">Back to Overview</a>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="/assets/js/jquery.fitvids.js"></script>
+<script type="text/javascript" src="/assets/js/index.js"></script>
+<script type="text/javascript" src="/assets/js/readingTime.min.js"></script>
+<script>
+(function ($) {
+  "use strict";
+  $(document).ready(function(){
+
+    var $window = $(window),
+    $image = $('.post-image-image, .teaserimage-image');
+    
+      $window.on('scroll', function() {
+        var top = $window.scrollTop();
+
+        if (top < 0 || top > 1500) { return; }
+        $image
+          .css('transform', 'translate3d(0px, '+top/3+'px, 0px)')
+          .css('opacity', 1-Math.max(top/700, 0));
+      });
+      $window.trigger('scroll');
+
+      var height = $('.article-image').height();
+      $('.post-content').css('padding-top', height + 'px');
+
+      $('a[href*=#]:not([href=#])').click(function() {
+        if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
+         && location.hostname == this.hostname) {
+          var target = $(this.hash);
+          target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+          if (target.length) {
+            $('html,body').animate({ scrollTop: target.offset().top }, 500);
+            return false;
+          }
+        }
+      });
+
+  });
+}(jQuery));
+</script>
+
+
+  </body>
+</html>

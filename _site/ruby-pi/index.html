@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <!-- (1) Optimize for mobile versions: http://goo.gl/EOpFl -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- (1) force latest IE rendering engine: bit.ly/1c8EiC9 -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <title>Ruby Pi</title>
+  <meta name="description" content="Developer and Musician blogging about VR, Webdev, Machine Learning, and Startups
+" />
+
+  <meta name="HandheldFriendly" content="True" />
+  <meta name="MobileOptimized" content="320" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+  <link rel="canonical" href="http://www.ryansworks.com/ruby-pi/">
+
+  <link rel="shortcut icon" href="/assets/images/favicon.ico">
+<!--  <link rel="stylesheet" href=""> -->
+  <link rel="stylesheet" href="http://brick.a.ssl.fastly.net/Linux+Libertine:400,400i,700,700i/Open+Sans:400,400i,700,700i">
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" type="text/css" media="screen" href="/css/main.css" />
+  <link rel="stylesheet" type="text/css" media="print" href="/css/print.css" />
+</head>
+
+  <body itemscope itemtype="http://schema.org/Article">
+    <!-- header start -->
+
+<a href="http://www.ryansworks.com" class="logo-readium"><span class="logo" style="background-image: url(/assets/images/logo.png)"></span></a>
+
+<!-- header end -->
+
+    <main class="content" role="main">
+      <article class="post">
+        
+        <div class="noarticleimage">
+          <div class="post-meta">
+            <h1 class="post-title">Ruby Pi</h1>
+            <div class="cf post-meta-text">
+              <div class="author-image" style="background-image: url(/assets/images/ryan_mcdermott.jpg)">Blog Logo</div>
+              <h4 class="author-name" itemprop="author" itemscope itemtype="http://schema.org/Person">Ryan McDermott</h4>
+              on
+              <time datetime="2014-01-24T00:00:00+00:00">24 Jan 2014</time>
+              <!-- , tagged on <span class="post-tag-">, <a href="/tag/"></a></span> -->
+            </div>
+          </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        
+        <section class="post-content">
+          <div class="post-reading">
+            <span class="post-reading-time"></span> read
+          </div>
+          <a name="topofpage"></a>
+          <p>I&#8217;ve set out to create a basic Raspberry on Rails app on to login remotely and control a few things remotely in my house. All this via a web interface! You might say, &#8220;Well you could just open an SSH server instead.&#8221; That&#8217;s true, but you could also use a burner Nokia phone instead of your iPhone. Why use an iPhone then? Well, because it&#8217;s cooler &#8212; not to mention you can do a hell of a lot more.</p>
+
+<p>Anyway, all of this is definitely along the IOT lines &#8212; in other words, the future!</p>
+
+<p>In order to get Rails going I thought it would be only fitting to get a more modern version of Ruby, rather than what&#8217;s already installed with Raspbian. Ruby 1.9 is Rube 1.9 &#8212; there&#8217;s so many significant speed improvements to the newer versions of Ruby, and that&#8217;s quite necessary on a relatively slow processing microcomputer like the Pi.</p>
+
+<p>I first set out to get RVM running, which is definitely a must. Ruby without RVM is like not having a drawer for all your socks. In order to get RVM going I ran this:<br>
+<code>\curl -sSL https://get.rvm.io | bash -s stable</code></p>
+
+<p>Once I installed that I ran the following command:</p>
+
+<p><code>rvm install 2.1.0</code></p>
+
+<p>I figured 2.1.0 would be the best going forward for the next year or two, which is what I&#8217;m willing to commit to prototyping something cool with this type of interface. I let it begin the installation process, took a shower, played some guitar, ate some queso, called my grandma, watched an hour of Jim Gaffigan, took a nap, played some piano, thought about taking another shower, then looked at the installation process. Holy hell, it wasn&#8217;t even close to being done. I ran <em>top </em>to see what was going on:</p>
+
+<p><img class="alignnone size-full wp-image-180" alt="Top Ruby Install" src="http://ryansworks.com/wp-content/uploads/2014/01/Screen-Shot-2014-01-22-at-11.54.22-PM.png" width="542" height="427" /></p>
+
+<p>I was slightly relieved that at least cc was running and there was some compilation actually going. I decided to go to bed and wait until the next morning. Fortunately, when I woke up around 7:45 I saw that it had finally finished. It&#8217;s surprising because I thought SSD space would be my biggest concern but it looks like with these little single-threaded processes on one core it&#8217;s actually the CPU power that I&#8217;m more concerned about. Having said that, it&#8217;s an incredible feat of human achievement that we can compile and run all of this software on something the size of a baseball card. The Raspberry Pi and food truck tacos are what should make anyone believe in a higher power &#8212; even if it&#8217;s just the ghost of Dennis Ritchie!</p>
+
+<p>This should be exciting. Now all that&#8217;s left to do is run <em>gem install rails. </em>That and write the damn app!</p>
+
+        </section>
+        <footer class="post-footer">
+          <section class="share">
+            
+              
+                <a class="icon-twitter" href="http://twitter.com/share?text=Ruby+Pi&amp;url=http://www.ryansworks.com/ruby-pi"
+                  onclick="window.open(this.href, 'twitter-share', 'width=550,height=255');return false;">
+                <i class="fa fa-twitter"></i><span class="hidden">twitter</span>
+                </a>
+              
+            
+              
+            
+          </section>
+        </footer>
+        <div class="bottom-teaser cf">
+          <div class="isLeft">
+            <h5 class="index-headline featured"><span>Written by</span></h5>
+            <section class="author">
+              <div class="author-image" style="background-image: url(/assets/images/ryan_mcdermott.jpg)">Blog Logo</div>
+              <h4>Ryan McDermott</h4>
+              <p class="bio"></p>
+              <hr>
+              <p class="published">Published <time datetime="2014-01-24 00:00">24 Jan 2014</time></p>
+            </section>
+          </div>
+          
+          <div class="isRight">
+            <h5 class="index-headline featured"><span>Supported by</span></h5>
+            <footer class="site-footer">
+              <section class="poweredby">Proudly published with <a href="http://jekyllrb.com"> Jekyll</a></section>
+              <a class="subscribe" href="/feed.xml"> <span class="tooltip"> <i class="fa fa-rss"></i> You should subscribe to my feed.</span></a>
+              <div class="inner">
+                <section class="copyright">All content copyright <a href="/">Ryan McDermott</a> &copy; 2015<br>All rights reserved.</section>
+              </div>
+            </footer>
+          </div>
+        </div>
+      </article>
+    </main>
+    <div class="bottom-closer">
+      <div class="background-closer-image"  style="background-image: url(/assets/images/atx_sky.jpg)">
+        Image
+      </div>
+      <div class="inner">
+        <h1 class="blog-title">Ryansworks</h1>
+        <h2 class="blog-description">Developer and Musician blogging about VR, Webdev, Machine Learning, and Startups
+</h2>
+        <a href="/" class="btn">Back to Overview</a>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="/assets/js/jquery.fitvids.js"></script>
+<script type="text/javascript" src="/assets/js/index.js"></script>
+<script type="text/javascript" src="/assets/js/readingTime.min.js"></script>
+<script>
+(function ($) {
+  "use strict";
+  $(document).ready(function(){
+
+    var $window = $(window),
+    $image = $('.post-image-image, .teaserimage-image');
+    
+      $window.on('scroll', function() {
+        var top = $window.scrollTop();
+
+        if (top < 0 || top > 1500) { return; }
+        $image
+          .css('transform', 'translate3d(0px, '+top/3+'px, 0px)')
+          .css('opacity', 1-Math.max(top/700, 0));
+      });
+      $window.trigger('scroll');
+
+      var height = $('.article-image').height();
+      $('.post-content').css('padding-top', height + 'px');
+
+      $('a[href*=#]:not([href=#])').click(function() {
+        if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
+         && location.hostname == this.hostname) {
+          var target = $(this.hash);
+          target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+          if (target.length) {
+            $('html,body').animate({ scrollTop: target.offset().top }, 500);
+            return false;
+          }
+        }
+      });
+
+  });
+}(jQuery));
+</script>
+
+
+  </body>
+</html>

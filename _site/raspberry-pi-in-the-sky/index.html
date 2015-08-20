@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <!-- (1) Optimize for mobile versions: http://goo.gl/EOpFl -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- (1) force latest IE rendering engine: bit.ly/1c8EiC9 -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <title>Raspberry Pi In the Sky</title>
+  <meta name="description" content="Developer and Musician blogging about VR, Webdev, Machine Learning, and Startups
+" />
+
+  <meta name="HandheldFriendly" content="True" />
+  <meta name="MobileOptimized" content="320" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+  <link rel="canonical" href="http://www.ryansworks.com/raspberry-pi-in-the-sky/">
+
+  <link rel="shortcut icon" href="/assets/images/favicon.ico">
+<!--  <link rel="stylesheet" href=""> -->
+  <link rel="stylesheet" href="http://brick.a.ssl.fastly.net/Linux+Libertine:400,400i,700,700i/Open+Sans:400,400i,700,700i">
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" type="text/css" media="screen" href="/css/main.css" />
+  <link rel="stylesheet" type="text/css" media="print" href="/css/print.css" />
+</head>
+
+  <body itemscope itemtype="http://schema.org/Article">
+    <!-- header start -->
+
+<a href="http://www.ryansworks.com" class="logo-readium"><span class="logo" style="background-image: url(/assets/images/logo.png)"></span></a>
+
+<!-- header end -->
+
+    <main class="content" role="main">
+      <article class="post">
+        
+        <div class="noarticleimage">
+          <div class="post-meta">
+            <h1 class="post-title">Raspberry Pi In the Sky</h1>
+            <div class="cf post-meta-text">
+              <div class="author-image" style="background-image: url(/assets/images/ryan_mcdermott.jpg)">Blog Logo</div>
+              <h4 class="author-name" itemprop="author" itemscope itemtype="http://schema.org/Person">Ryan McDermott</h4>
+              on
+              <time datetime="2014-01-21T00:00:00+00:00">21 Jan 2014</time>
+              <!-- , tagged on <span class="post-tag-">, <a href="/tag/"></a></span> -->
+            </div>
+          </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        
+        <section class="post-content">
+          <div class="post-reading">
+            <span class="post-reading-time"></span> read
+          </div>
+          <a name="topofpage"></a>
+          <p>So begins my journey. One I set out to accomplish as a sort of New Year&#8217;s Resolution (along with more sustained blogging) I&#8217;ve begun my odyssey into the world of the Raspberry Pi.</p>
+
+<div id="attachment_146" style="width: 235px" class="wp-caption alignnone">
+  <a href="http://ryansworks.com/wp-content/uploads/2014/01/IMG_2895.jpg"><img class="size-medium wp-image-146" alt="Setting up the Pi for the first time." src="http://ryansworks.com/wp-content/uploads/2014/01/IMG_2895-225x300.jpg" width="225" height="300" /></a>
+  
+  <p class="wp-caption-text">
+    Setting up the Pi for the first time.
+  </p>
+</div>
+
+<p><span style="line-height: 1.5em;">Yes Milton, that&#8217;s a stapler holding the wires down. That thumbnail image is damn-near the size of the actual Pi. It could fit into your wallet if you were so audacious, and if you wanted to plug your wallet into the Internet of Things ® (more on that to come) Excuse the Amazon endorsement, but I got the complete <a href="http://www.amazon.com/CanaKit-Raspberry-Complete-Original-Preloaded/dp/B008XVAVAW">CanaKit setup</a>, partially out of laziness because I didn&#8217;t want to buy an HDMI cable, SD card, and power supply all separately. I unfortunately didn&#8217;t have any lying around.</span></p>
+
+<p>The setup they give you comes with a flashed SD card with NOOBS installed, which acts as a bootloader to help you configure your distro of Linux. The Raspbian one looks rather swell, so no problems there. If you want to flash any old SD card just run dd on the device name. You can find a good install guide here which I ran with a friend on a separate install: <a href="http://elinux.org/RPi_Easy_SD_Card_Setup">http://elinux.org/RPi_Easy_SD_Card_Setup</a></p>
+
+<div id="attachment_151" style="width: 310px" class="wp-caption alignnone">
+  <a href="http://ryansworks.com/wp-content/uploads/2014/01/IMG_2896.jpg"><img class="size-medium wp-image-151" alt="A great first date with the Pi" src="http://ryansworks.com/wp-content/uploads/2014/01/IMG_2896-300x225.jpg" width="300" height="225" /></a>
+  
+  <p class="wp-caption-text">
+    A great first date with the Pi
+  </p>
+</div>
+
+<p>My first task was to set up an SSH server on there. The beauty is that you don&#8217;t need that old monitor any more. Just SSH into the Pi on your local network and run apt-get all day and have fun. I ordered a camera along with it and I am installing that now after writing this cheeky blog post. I&#8217;m installing OpenCV on the Pi as well (warning it takes a while) and using some of the library to run motion detection from still images captured by the Pi. Wish me luck!</p>
+
+        </section>
+        <footer class="post-footer">
+          <section class="share">
+            
+              
+                <a class="icon-twitter" href="http://twitter.com/share?text=Raspberry+Pi+In+the+Sky&amp;url=http://www.ryansworks.com/raspberry-pi-in-the-sky"
+                  onclick="window.open(this.href, 'twitter-share', 'width=550,height=255');return false;">
+                <i class="fa fa-twitter"></i><span class="hidden">twitter</span>
+                </a>
+              
+            
+              
+            
+          </section>
+        </footer>
+        <div class="bottom-teaser cf">
+          <div class="isLeft">
+            <h5 class="index-headline featured"><span>Written by</span></h5>
+            <section class="author">
+              <div class="author-image" style="background-image: url(/assets/images/ryan_mcdermott.jpg)">Blog Logo</div>
+              <h4>Ryan McDermott</h4>
+              <p class="bio"></p>
+              <hr>
+              <p class="published">Published <time datetime="2014-01-21 00:00">21 Jan 2014</time></p>
+            </section>
+          </div>
+          
+          <div class="isRight">
+            <h5 class="index-headline featured"><span>Supported by</span></h5>
+            <footer class="site-footer">
+              <section class="poweredby">Proudly published with <a href="http://jekyllrb.com"> Jekyll</a></section>
+              <a class="subscribe" href="/feed.xml"> <span class="tooltip"> <i class="fa fa-rss"></i> You should subscribe to my feed.</span></a>
+              <div class="inner">
+                <section class="copyright">All content copyright <a href="/">Ryan McDermott</a> &copy; 2015<br>All rights reserved.</section>
+              </div>
+            </footer>
+          </div>
+        </div>
+      </article>
+    </main>
+    <div class="bottom-closer">
+      <div class="background-closer-image"  style="background-image: url(/assets/images/atx_sky.jpg)">
+        Image
+      </div>
+      <div class="inner">
+        <h1 class="blog-title">Ryansworks</h1>
+        <h2 class="blog-description">Developer and Musician blogging about VR, Webdev, Machine Learning, and Startups
+</h2>
+        <a href="/" class="btn">Back to Overview</a>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="/assets/js/jquery.fitvids.js"></script>
+<script type="text/javascript" src="/assets/js/index.js"></script>
+<script type="text/javascript" src="/assets/js/readingTime.min.js"></script>
+<script>
+(function ($) {
+  "use strict";
+  $(document).ready(function(){
+
+    var $window = $(window),
+    $image = $('.post-image-image, .teaserimage-image');
+    
+      $window.on('scroll', function() {
+        var top = $window.scrollTop();
+
+        if (top < 0 || top > 1500) { return; }
+        $image
+          .css('transform', 'translate3d(0px, '+top/3+'px, 0px)')
+          .css('opacity', 1-Math.max(top/700, 0));
+      });
+      $window.trigger('scroll');
+
+      var height = $('.article-image').height();
+      $('.post-content').css('padding-top', height + 'px');
+
+      $('a[href*=#]:not([href=#])').click(function() {
+        if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
+         && location.hostname == this.hostname) {
+          var target = $(this.hash);
+          target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+          if (target.length) {
+            $('html,body').animate({ scrollTop: target.offset().top }, 500);
+            return false;
+          }
+        }
+      });
+
+  });
+}(jQuery));
+</script>
+
+
+  </body>
+</html>

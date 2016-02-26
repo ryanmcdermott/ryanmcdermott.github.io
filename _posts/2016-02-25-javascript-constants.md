@@ -4,8 +4,6 @@ author: Ryan McDermott
 layout: post
 permalink: /javascript-constants/
 ---
-# Constant Objects and Freezing
-
 The `const` keyword in JavaScript doesn't do exactly what you might think it would do. For basic primitive values it does the obvious.
 
 ```js

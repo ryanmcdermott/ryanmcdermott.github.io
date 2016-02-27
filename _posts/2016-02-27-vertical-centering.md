@@ -3,7 +3,7 @@ title: Vertical Centering in CSS
 author: Ryan McDermott
 layout: post
 permalink: /vertical-centering-css/
-
+---
 We landed a man on the moon, we've sent a satellite outside of our solar system, but we still can't center stupid buttons in CSS. Well, actually we can!
 
 One of the trickiest parts of CSS is doing just that. It's not obvious how you get something dead in the middle of your `<div>`. Well, here's how you go about accomplishing that.

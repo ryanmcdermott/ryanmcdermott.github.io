@@ -1,8 +1,8 @@
 ---
-title: Can't Touch This: JavaScript's This
+title: Can't Touch This
 author: Ryan McDermott
 layout: post
-permalink: /you-must-remember-this/
+permalink: /javascript-thisness/
 ---
 In JavaScript, the most confusing thing is what the heck `this` is or even refers to in a function. Most of the time it seems like `this` is just referring to the current function, but actually in JavaScript, `this` refers to the **calling context**. Let's look at an example to see what that means:
 

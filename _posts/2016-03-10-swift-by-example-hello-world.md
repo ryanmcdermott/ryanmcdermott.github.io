@@ -1,5 +1,5 @@
 ---
-title: Swift By Example: Hello World
+title: Swift By Example - Hello World
 author: Ryan McDermott
 layout: post
 permalink: /swift-by-example-hello-world/

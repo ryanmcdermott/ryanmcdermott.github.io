@@ -1,54 +1,22 @@
-# Build settings
-highlighter: rouge
-gems:
-  - jemoji
-  
-# Site settings
-title: "Ryansworks"
-description: > # this means to ignore newlines until "email:"
-   Developer and Musician blogging about VR, Webdev, Machine Learning, and Startups
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+relative_permalinks: true
 
-email: ryan.mcdermott@ryansworks.com
-#blog logo
-logo: "/assets/images/logo.png"
-# blog cover
-cover: "/assets/images/background.jpg"
+# Setup
+title:               Lanyon
+tagline:             'A Jekyll theme'
+description:         'A reserved <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that places the utmost gravity on content with a hidden drawer. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
+url:                 http://lanyon.getpoole.com
+baseurl:             ''
+paginate:            5
 
-name: 'Ryan McDermott'
-author: 'Ryan McDermott'
-author_image: "/assets/images/ryan_mcdermott.jpg"
+# About/contact
+author:
+  name:              Mark Otto
+  url:               https://twitter.com/mdo
+  email:             markdotto@gmail.com
 
-paginate:	5
-
-url: "http://www.ryansworks.com" # the base hostname & protocol for your site
-baseurl: ""
-
-# social icons and sharing options
-social:
-  - icon:	twitter
-    url:	https://twitter.com/ryansworks
-    desc: Follow me on twitter
-    share_url: http://twitter.com/share
-    share_title: ?text=
-    share_link: "&amp;url="
-
-#  - icon:	facebook
-#    url:	https://facebook.com/???
-#    desc: Connect with me facebook
-#    share_url: https://www.facebook.com/sharer.php
-#    share_title: ?t=
-#    share_link: "&amp;u="
-
-  - icon:	github
-    url:	https://github.com/ryanmcdermott
-    desc:	Fork me on github
-    share_url:
-    share_title:
-    share_link:
-
-#  - icon:	google-plus
-#    url:	https://google.com/???
-#    desc:	Add me on google+
-#    share_url:
-#    share_title:
-#    share_link:
+# Custom vars
+version:             1.0.0

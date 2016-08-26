@@ -7,7 +7,7 @@ title:               ryansworks
 tagline:             'Ryan McDermott'
 description:         'Developer, musician, and lover of the great indoors'
 url:                 http://ryanmcdermott.me
-baseurl:             ''
+baseurl:             'http://ryanmcdermott.me'
 paginate:            5
 
 # About/contact

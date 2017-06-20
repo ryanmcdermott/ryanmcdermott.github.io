@@ -3,8 +3,8 @@
 permalink:           pretty
 
 # Setup
-title:               ryansworks
-tagline:             'Ryan McDermott'
+title:               Ryan McDermott
+tagline:             'Software Developer'
 description:         'Developer, musician, and lover of the great indoors'
 url:                 http://ryanmcdermott.me
 baseurl:             'http://ryanmcdermott.me'
@@ -13,7 +13,7 @@ paginate:            5
 # About/contact
 author:
   name:              Ryan McDermott
-  url:               https://twitter.com/ryansworks
+  url:               https://twitter.com/ryconolcast
   email:             ryansworks@gmail.com
 
 # Custom vars

@@ -1,4 +1,3 @@
-My personal blog
-========
+# ryanmcdermott.me
 
-Jekyll blog using Lanyon theme 
+Based on https://github.com/heiswayi/the-plain

@@ -2,7 +2,6 @@
 title: JavaScript Let vs. Var
 author: Ryan McDermott
 layout: post
-permalink: /javascript-let-var/
 ---
 Constant reader, we have learned a lot about JavaScript variable scope so far. We've read all about hoisting and thisness. That teaches us some of the underlying mechanics of variables, but now let's look at the distinction between the scope of `var` vs. `let`.
 

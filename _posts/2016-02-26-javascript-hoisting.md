@@ -2,7 +2,6 @@
 title: What Is Hoisting in JavaScript?
 author: Ryan McDermott
 layout: post
-permalink: /javascript-hoisting/
 ---
 Variables that are declared by the keyword `var` are "hoisted" to the top of the function scope. What does that mean though? Let's take a look:
 

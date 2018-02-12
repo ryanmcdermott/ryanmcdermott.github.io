@@ -2,7 +2,6 @@
 title: JavaScript Prototypal Inheritance
 author: Ryan McDermott
 layout: post
-permalink: /javascript-prototypal-inheritance/
 ---
 In JavaScript, there's no such thing as classes (well sort of not totally true anymore). Anyway, in JavaScript, everything is an object. The question is, how do objects inherit from each other? Well, they do so by extending the prototype chain of another object. Let's take a look at what that means in an example:
 

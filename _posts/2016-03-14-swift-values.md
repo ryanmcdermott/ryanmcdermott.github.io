@@ -2,7 +2,6 @@
 title: Swift By Example - Values
 author: Ryan McDermott
 layout: post
-permalink: /swift-by-example-values/
 ---
 Swift has a lot of the same kinds of value operators and expressions that you might be familiar with in other languages. Without getting into a bunch of theory, let's just look at some code and figure out how values work in Swift.
 

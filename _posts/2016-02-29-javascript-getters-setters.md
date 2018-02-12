@@ -2,7 +2,6 @@
 title: JavaScript Getters and Setters
 author: Ryan McDermott
 layout: post
-permalink: /javascript-getters-setters/
 ---
 A cool but infrequently used feature of JavaScript is getters and setters. These allow you to perform custom behavior when an object is viewed or manipulated. Let's take a look at an example:
 

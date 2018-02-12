@@ -2,7 +2,6 @@
 title: JavaScript Class Inheritance
 author: Ryan McDermott
 layout: post
-permalink: /javascript-class-inheritance/
 ---
 Until ES6, JavaScript didn't have a class keyword. Now, joyously, it does! However, this is not a `class` like you would think of in C++ or Java. Really, this is using the same type of prototypal extension and inheritance you see in ES5, it's just much, much prettier.
 

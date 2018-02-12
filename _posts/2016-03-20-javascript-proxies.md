@@ -2,7 +2,6 @@
 title: JavaScript Proxies
 author: Ryan McDermott
 layout: post
-permalink: /javascript-proxies/
 ---
 Proxies are an awesome new feature of JavaScript. At first it looks like it's some new cool network wizardry that allows your users to watch the BBC in a different country than the UK. That's not it though! Proxies basically mimic objects and arrays and allow you to do special things whenever you access and/or alter them. Let's see with an example!
 

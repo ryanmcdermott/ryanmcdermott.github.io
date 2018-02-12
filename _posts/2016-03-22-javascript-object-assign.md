@@ -2,7 +2,6 @@
 title: JavaScript Object.assign
 author: Ryan McDermott
 layout: post
-permalink: /javascript-object-assign/
 ---
 What if you have an object and you want to copy it into a new object? Also, what if you want to override some of those properties? How would you do it? The answer is `Object.assign` Let's look at an example to see how it works.
 

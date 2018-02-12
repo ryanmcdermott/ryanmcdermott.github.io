@@ -2,7 +2,6 @@
 title: What Are Constants in JavaScript?
 author: Ryan McDermott
 layout: post
-permalink: /javascript-constants/
 ---
 The `const` keyword in JavaScript doesn't do exactly what you might think it would do. For basic primitive values it does the obvious.
 

@@ -2,7 +2,6 @@
 title: Swift By Example - Hello World
 author: Ryan McDermott
 layout: post
-permalink: /swift-by-example-hello-world/
 ---
 Swift is a rich language that can be used for all sorts of apps, not just iOS or OSX GUI ones. We can make terminal apps just like we would with any other systems language like C++ or Java!
 

@@ -46,6 +46,7 @@ defaults:
       layout:       "page"
   -
     scope:
+      path:         "posts"
       type:         "posts"
     values:
       layout:       "post"

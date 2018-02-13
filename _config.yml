@@ -12,7 +12,7 @@ twitter_username:   ryconoclast # Your Twitter username here
 github_username:    ryanmcdermott # Your GitHub username here
 
 # Site Settings
-url:                 http://ryanmcdermott.me
+url:                 https://ryanmcdermott.me
 baseurl:            
 permalink:          /posts/:title # Post permalink
 timezone:           America/Los_Angeles # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones

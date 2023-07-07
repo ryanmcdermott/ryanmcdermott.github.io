@@ -1,9 +1,9 @@
 ---
-layout: post
 title: Clean Coding Practices for Software Engineers
-date: 2023-07-07
 author: Ryan McDermott
+layout: post
 ---
+
 As software engineers, we strive to write code that is not only functional but also clean and maintainable. Clean coding practices not only make it easier for others to understand our code but also help us improve the overall quality of our work. In this blog post, we will discuss some essential clean coding practices that every software engineer should follow.
 
 1. Consistent Naming Conventions:

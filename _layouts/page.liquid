@@ -1,0 +1,21 @@
+---
+layout: default
+---
+
+<main>
+  <article>
+    <h1 class="title">{{ page.title }}</h1>
+
+    <div class="divider"></div>
+
+    {{ content }}
+
+  </article>
+
+  <div class="page-navigation">
+    <a
+      class="home"
+      href="{{ site.baseurl | prepend: site.url }}"
+      title="Back to Homepage">Home</a>
+  </div>
+</main>

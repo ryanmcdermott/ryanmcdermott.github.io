@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	{% include head.liquid %}
+</head>
+
+<body class="latex-dark">
+	{% include header.liquid %}
+
+	{{ content | replace: '&#8617;', '&#8617;&#xfe0e;' }}
+
+	{% include footer.liquid %}
+</body>
+
+</html>

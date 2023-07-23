@@ -1,5 +1,5 @@
 # Site Info
-title:              "Ryan McDermott -- Random learnings"
+title:              "Ryan McDermott's Blog"
 description:        "Software developer and musician"
 #google_verify:      epFgX0s_0RM3CdjwFcsewfXzPov2g8s9ZBOLyaIUH-o # Put your Google Verification here
 google_analytics:   UA-114779218-1
@@ -12,40 +12,42 @@ twitter_username:   ryconoclast # Your Twitter username here
 github_username:    ryanmcdermott # Your GitHub username here
 
 # Site Settings
-url:                 https://ryanmcdermott.me
-baseurl:            
-permalink:          /posts/:title # Post permalink
-timezone:           America/Los_Angeles # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-mathjax:            true  # enables support for mathjax - set to false to disable
+url:                https://ryanmcdermott.me
+permalink:          /posts/:title 
+timezone:           America/Los_Angeles
+mathjax:            true
 
-# Site Build
-highlighter:        rouge
-markdown:           kramdown
-kramdown:
-    input:          GFM
-sass:
-    style:          :compressed
+# Site Build	
+highlighter:        rouge	
+markdown:           kramdown	
+kramdown:	
+    input:          GFM	
+sass:	
+    style:          :compressed	
 
-# Other Params
-include:            [ "robots.txt" ]
-exclude:            [ "LICENSE", "README.md", "CNAME", "vendor", "Gemfile" ]
-plugins:
-  - jekyll-sitemap
+# Other Params	
+include:            [ "robots.txt" ]	
+exclude:            [ "LICENSE", "README.md", "CNAME", "vendor", "Gemfile" ]	
+plugins:	
+  - jekyll-sitemap	
+  - jekyll-paginate	
+paginate: 10	
+paginate_path: "/blog/page:num/"	
 
-
-defaults:
+defaults:	
   -
-    scope:
-      path:         ""
-    values:
-      layout:       "null"
+    scope:	
+      path:         ""	
+    values:	
+      layout:       "null"	
   -
-    scope:
-      type:         "pages"
-    values:
-      layout:       "page"
+    scope:	
+      type:         "pages"	
+    values:	
+      layout:       "page"	
   -
-    scope:
-      type:         "posts"
-    values:
-      layout:       "post"
+    scope:	
+      type:         "posts"	
+    values:	
+      layout:       "post"	
+
